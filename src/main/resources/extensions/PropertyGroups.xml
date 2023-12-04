@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE property-groups PUBLIC "-//OpenKM//DTD Property Groups 2.0//EN"
+        "http://www.openkm.com/dtd/property-groups-2.0.dtd">
+<property-groups>
+
+    <property-group label="اسناد روزانه" name="okg:Accounting">
+        <input label="تاریخ سند" type="text" name="okp:Accounting.date"/>
+        <input label="شماره سند" type="text" name="okp:Accounting.docNo"/>
+        <input label="کد شعبه" type="text" name="okp:Accounting.branchCode"/>
+        <input label="نوع سند" type="text" name="okp:Accounting.documentType"/>
+        <input label="طبقه سند" type="text" name="okp:Accounting.documentClass"/>
+        <input label="نوع دسته سند" type="text" name="okp:Accounting.documentSetType"/>
+        <input label="شماره نمونه فرم /شرح سند" type="text" name="okp:Accounting.documentDescription"/>
+        <checkbox label="completed" name="okp:Accounting.completed"/>
+    </property-group>
+
+    <property-group label="اسناد چکاوک" name="okg:Chakavak">
+        <input label="شماره صیادی" type="text" name="okp:Chakavak.sayyadNo"/>
+        <input label="شماره چک" type="text" name="okp:Chakavak.chequeNo"/>
+        <input label="تاریخ چک" type="text" name="okp:Chakavak.chequeDate"/>
+        <input label="شعبه واگذارنده" type="text" name="okp:Chakavak.fromBranch"/>
+        <input label="نام عهده" type="text" name="okp:Chakavak.toBranch"/>
+        <input label="طبقه سند" type="text" name="okp:Chakavak.documentClass"/>
+        <input label="نوع سند" type="text" name="okp:Chakavak.documentType"/>
+        <checkbox label="completed" name="okp:Accounting.completed"/>
+    </property-group>
+
+</property-groups>
+
+
